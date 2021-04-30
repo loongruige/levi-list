@@ -1,17 +1,6 @@
-.sponsored-bot{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px 20px;
-  padding-top; 2px;
-  margin: 10px 10px;
+.bot.sponsored{
   background: #ffd257;
   border: 5px solid #c79f32;
-  border-radius: 7px;
-  /*width: 350px;*/
-    width: 30%;
-  /*height: 600px;*/
 }
 .sponsored-bot-page{
   display: inline-block;
@@ -37,17 +26,72 @@
   width: 100%;
   /*height: 350px;*/
 }
-
+.uwu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.votes {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px;
+  border-radius: 6px;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 2rem;
+}
+.votes:hover {
+  cursor: pointer;
+}
+.bot img {
+  border-radius: 50%;
+  height: 40%;
+  width: 40%;
+  margin: 5%;
+  margin-left: 10%;
+}
 .bot{
-  display: inline-grid;
-  padding: 20px 20px;
-  padding-top; 2px;
-  margin: 10px 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   background: lightblue;
   border: 5px solid blue;
   border-radius: 7px;
-  /*width: 350px;*/
-    width: 30%;
+  width: 30%;
+  height: 50%;
+  margin: 0 10px;
+  padding-bottom: 2%;
+}
+.bot .short-desc {
+  padding: 20px;
+  text-align: center;
+}
+.go-to-page {
+  text-align: center;
+  box-shadow:inset 0px 0px 8px -14px #f9eca0;
+	background:linear-gradient(to bottom, #55cbfa 5%, #43b7e6 100%);
+	background-color:#55cbfa;
+	border-radius: 6px;
+	border: 1px solid #e65f44;
+  cursor: pointer;
+  color: #c92200;
+	font-size: 17px;
+  padding: 12px 100px;
+}
+.go-to-page.sponsored {
+  background:linear-gradient(to bottom, #f0c911 5%, #f2ab1e 100%);
+	background-color:#f0c911;
+}
+.go-to-page.sponsored:hover {
+  background:linear-gradient(to bottom, #f2ab1e 5%, #f0c911 100%);
+	background-color:#f2ab1e;
+}
+.go-to-page:hover {
+  background:linear-gradient(to bottom, #43b7e6 5%, #55cbfa 100%);
+	background-color:#43b7e6;
 }
 
 .btn-Sponsored {
@@ -136,14 +180,14 @@
   padding: 20px 20px;
   border: 2px solid gray;
   border-radius: 5px;
-  width: 70vw;
+  width: 70%;
 }
 .sidebar{
   display: flex;
   flex-direction: column;
   
   padding-right: 20px; /* pain */
-  width: 18vw;
+  width: /*18vw*/ 30%;
 }
 .kind-of-sidebar{
   /*float: right;*/
@@ -170,11 +214,16 @@
 h2{
   font-size: 1em;
 }
+h1 {
+  font-size: 35px;
+}
 
 .i-could-simp-for-nirlep{
   display: flex;
   float: left;
 }
+
+/* uwu */
 
 .commentBox{
   margin: 10 10;
@@ -183,9 +232,11 @@ h2{
 }
 
 .bots {
-    display: flex;
+  display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+/*   width: 90vw; */
+  margin: 0 auto;
 }
 
